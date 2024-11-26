@@ -17,10 +17,10 @@ const PersonalInfo = () => {
     }
   return (
     <>
-    <form className="w-1/2 min-h-[200px] rounded mx-auto my-10 dark:bg-blue-400 dark:text-white"
+    <form className="max-w-lg sm:max-w-xl min-h-[200px] rounded mx-auto my-10 dark:bg-blue-400 dark:text-white"
     onSubmit={handleSubmit}>
         <fieldset className="w-full flex flex-col">
-            <legend className='text-2xl'>
+            <legend className='text-2xl p-2'>
             Enter your Personal Info
             </legend>
            
@@ -45,7 +45,7 @@ const PersonalInfo = () => {
     </form>
 
     
-    <div className='result w-1/2 min-h-[300px] my-10 rounded 
+    <div className='result max-w-lg sm:max-w-xl min-h-[300px] my-10 rounded 
     mx-auto dark:bg-slate-600  dark:text-white  p-8'>
     
         <h1 className='text-3xl'> Name: {fullName}</h1>
